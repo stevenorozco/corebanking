@@ -9,25 +9,25 @@ package Modelo;
  *
  * @author Steven
  */
-public class referencia {
-    String tipo_referencia; 
+public class Referencia {
+    String tipoReferencia; 
     String nombre; 
     String apellido; 
     int cedula; 
-    int numero_fijo; 
+    int numeroFijo; 
     int celular; 
 
-    public referencia(String tipo_referencia, int cedula) {
-        this.tipo_referencia = tipo_referencia;
+    public Referencia(String tipoReferencia, int cedula) {
+        this.tipoReferencia = tipoReferencia;
         this.cedula = cedula;
     }
 
-    public String getTipo_referencia() {
-        return tipo_referencia;
+    public String getTipoReferencia() {
+        return tipoReferencia;
     }
 
-    public void setTipo_referencia(String tipo_referencia) {
-        this.tipo_referencia = tipo_referencia;
+    public void setTipoReferencia(String tipoReferencia) {
+        this.tipoReferencia = tipoReferencia;
     }
 
     public String getNombre() {
@@ -54,12 +54,12 @@ public class referencia {
         this.cedula = cedula;
     }
 
-    public int getNumero_fijo() {
-        return numero_fijo;
+    public int getNumeroFijo() {
+        return numeroFijo;
     }
 
-    public void setNumero_fijo(int numero_fijo) {
-        this.numero_fijo = numero_fijo;
+    public void setNumeroFijo(int numeroFijo) {
+        this.numeroFijo = numeroFijo;
     }
 
     public int getCelular() {
@@ -69,7 +69,7 @@ public class referencia {
     public void setCelular(int celular) {
         this.celular = celular;
     }
-    
+
     
     
 }

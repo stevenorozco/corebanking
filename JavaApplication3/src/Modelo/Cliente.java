@@ -12,17 +12,17 @@ package Modelo;
 public class Cliente {
     String nombres; 
     String apellidos; 
-    String tipo_persona; //si es persona natural o juridica
+    String tipoPersona; //si es persona natural o juridica
     int cedula; 
     int nit; //si es juridica 
-    String razon_social; //si es juridica 
+    String razonSocial; //si es juridica 
     String genero; 
-    int promedio_ingresos_mes;
-    int promedio_egresos_mes; 
-    String actividad_economica; //descripcion principal actividad economica
+    int promediIngresosMes;
+    int promedioEgresosMes; 
+    String actividadEconomica; //descripcion principal actividad economica
 
-    public Cliente(String tipo_persona, int cedula) {
-        this.tipo_persona = tipo_persona;
+    public Cliente(String tipoPersona, int cedula) {
+        this.tipoPersona = tipoPersona;
         this.cedula = cedula;
     }
 
@@ -42,12 +42,12 @@ public class Cliente {
         this.apellidos = apellidos;
     }
 
-    public String getTipo_persona() {
-        return tipo_persona;
+    public String getTipoPersona() {
+        return tipoPersona;
     }
 
-    public void setTipo_persona(String tipo_persona) {
-        this.tipo_persona = tipo_persona;
+    public void setTipoPersona(String tipoPersona) {
+        this.tipoPersona = tipoPersona;
     }
 
     public int getCedula() {
@@ -66,12 +66,12 @@ public class Cliente {
         this.nit = nit;
     }
 
-    public String getRazon_social() {
-        return razon_social;
+    public String getRazonSocial() {
+        return razonSocial;
     }
 
-    public void setRazon_social(String razon_social) {
-        this.razon_social = razon_social;
+    public void setRazonSocial(String razonSocial) {
+        this.razonSocial = razonSocial;
     }
 
     public String getGenero() {
@@ -82,29 +82,32 @@ public class Cliente {
         this.genero = genero;
     }
 
-    public int getPromedio_ingresos_mes() {
-        return promedio_ingresos_mes;
+    public int getPromediIngresosMes() {
+        return promediIngresosMes;
     }
 
-    public void setPromedio_ingresos_mes(int promedio_ingresos_mes) {
-        this.promedio_ingresos_mes = promedio_ingresos_mes;
+    public void setPromediIngresosMes(int promediIngresosMes) {
+        this.promediIngresosMes = promediIngresosMes;
     }
 
-    public int getPromedio_egresos_mes() {
-        return promedio_egresos_mes;
+    public int getPromedioEgresosMes() {
+        return promedioEgresosMes;
     }
 
-    public void setPromedio_egresos_mes(int promedio_egresos_mes) {
-        this.promedio_egresos_mes = promedio_egresos_mes;
+    public void setPromedioEgresosMes(int promedioEgresosMes) {
+        this.promedioEgresosMes = promedioEgresosMes;
     }
 
-    public String getActiuvidad_economica() {
-        return actividad_economica;
+    public String getActividadEconomica() {
+        return actividadEconomica;
     }
 
-    public void setActiuvidad_economica(String actiuvidad_economica) {
-        this.actividad_economica = actiuvidad_economica;
+    public void setActividadEconomica(String actividadEconomica) {
+        this.actividadEconomica = actividadEconomica;
     }
+
+  
+
     
     
     
